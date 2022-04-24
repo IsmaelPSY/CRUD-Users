@@ -1,0 +1,21 @@
+.userContainer{
+    border-radius: 10px;
+    background-color: #fff;
+    color: #282c34;
+    margin: 2rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-size: calc(10px + 1vmin);
+
+}
+
+.buttons{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.fz{
+    font-size: calc(10px + 2vmin);
+}
