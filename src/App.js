@@ -46,7 +46,6 @@ function App() {
     reset(defaultValues)
   }
   const handleDelete = (user)=>{
-    console.log('eliminando')
     deleteUser(user.id)
     setUser(user)
   }
