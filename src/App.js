@@ -32,6 +32,7 @@ function App() {
       editUser(idEdited,data);
       reset(defaultValues)
       setUser({})
+      setIsEditing(false)
     }
     else{
     createUser(data);
